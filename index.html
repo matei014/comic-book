@@ -1,0 +1,19 @@
+<html> 
+    <head>
+        <script src="https://aframe.io/releases/1.3.0/aframe.min.js" ></script>
+        <script src="page.js"></script>
+    </head>
+    <body>
+        <a-scene background="color: red">
+            <a-camera wasd-controls-enabled="false"></a-camera>
+            <a-assets>
+                <img src="page1.jpg" id="page1">
+                <img src="page2.jpg" id="page2">
+                <img src="page3.jpg" id="page3">
+                <img src="page4.jpg" id="page4">
+                <img src="page5.jpg" id="page5">
+            </a-assets>
+            <a-entity layer="scr: #page1; height: 3; width: 1.9505" page-controls></a-entity>
+        </a-scene>
+    </body>
+</html>
